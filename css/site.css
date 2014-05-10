@@ -40,7 +40,6 @@ div {
 ul {
   list-style-position: inside;
   list-style-type: disc;
-  /*padding-left: 2em;*/
   padding-bottom: 0.5em; }
 
 #content {
@@ -52,6 +51,8 @@ ul {
   margin-right: 2em;
   margin-left: 2em;
   border-color: #ffb173; }
+  #content p {
+    max-width: 70em; }
 
 .pageTitle {
   border-color: #ffb173;
@@ -78,9 +79,8 @@ ul#nav {
 
 a {
   text-decoration: none; }
-
-a:hover, a:focus {
-  text-decoration: underline; }
+  a:hover, a:focus {
+    text-decoration: underline; }
 
 #header {
   padding: 0.5em;

@@ -31,13 +31,6 @@ When I was a kid my parents thought that I spent too much time on the computer, 
 * [Last.fm][lastfm]
 * [Huffduffer][huffduffer]
 
-## Recommendations and Bookmarks
-
-As someone who spends a lot of quality time reading the web I'm completely hooked on [Instapaper][instapaper]. 
-
-View a tag cloud of my [delicious][delicious] bookmarks below ...
-
-<script type="text/javascript" src="http://feeds.delicious.com/v2/js/tags/nexus_icon?title=&amp;icon&amp;count=50&amp;sort=freq&amp;flow=cloud&amp;totals&amp;color=73adff-3274d0&amp;size=12-35"></script> 
 
 [lps]: http://www.lancasterphotographicsociety.org.uk
 [book]: http://www.blurb.com/books/1588810

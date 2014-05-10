@@ -59,7 +59,6 @@ div {
 ul {    
     list-style-position: inside;
     list-style-type: disc;
-    /*padding-left: 2em;*/
     padding-bottom: 0.5em;
 }
 
@@ -73,6 +72,9 @@ ul {
     margin-left: 2em;
     border-color: $colour-outline;
 
+    p {
+        max-width: 70em;
+    }
 }
 
 .pageTitle {
@@ -113,10 +115,10 @@ ul#nav{
 
 a {
     text-decoration: none;  
-}
 
-a:hover, a:focus{
-    text-decoration: underline;
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
 }
 
 #header {
