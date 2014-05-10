@@ -1,0 +1,27 @@
+---
+layout: page
+permalink: /
+title: Christian Cable
+shorttitle: about
+---
+## About me
+
+Hello, my name is Christian and I make websites.
+
+I work at [Lancaster University][lancaster-university] as part of the [University Web Team][marketing-team] within *Communications and Marketing*.
+
+Previously I worked in the [Department of Mathematics and Statistics][maths] as a Systems Administrator and then as a Web Developer as part of the [Postgraduate Statistics Centre][psc] project. In the early 2000s I worked for [the Careeres Service][careers] helping to bring careers guidance to the Internet. 
+
+If you're really interested in that sort of stuff you can find out far too much information over on [Linked in][linked-in].
+
+Outside of work I'm a keen amateur [photographer][photoblog] and member of [Lancaster Photographic Society][lps].
+
+
+[lancaster-university]: http://www.lancaster.ac.uk
+[marketing-team]: http://www.lancaster.ac.uk/centralservices/pubweb.htm
+[maths]: http://www.maths.lancs.ac.uk
+[psc]: http://www.maths.lancs.ac.uk/psc
+[careers]: http://careers.lancs.ac.uk
+[photoblog]: http://www.christiancable.co.uk
+[lps]: http://www.lancasterphotographicsociety.org.uk
+[linked-in]: http://uk.linkedin.com/in/christiancable/
