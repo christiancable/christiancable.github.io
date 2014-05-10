@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+sass css/site.scss css/site.css --no-cache
 jekyll build && rsync -avz --delete _site/ cable@ius.lancs.ac.uk:/home/www/19/cable/public_html -av --rsync-path="/usr/local/homegrown/bin/rsync"
