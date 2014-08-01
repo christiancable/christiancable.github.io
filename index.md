@@ -3,6 +3,7 @@ layout: page
 permalink: /
 title: Christian Cable
 shorttitle: about
+menu: true
 ---
 ## About me
 

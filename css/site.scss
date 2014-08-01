@@ -53,6 +53,10 @@ a {
     color: $colour-link;
 }
 
+em {
+    font-style:italic;
+}
+
 div {
     clear: both;
     display: block;
@@ -61,7 +65,8 @@ div {
 ul {    
     list-style-position: inside;
     list-style-type: disc;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 #content {
