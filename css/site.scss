@@ -22,31 +22,38 @@ p {
     margin: 0 0 1em;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Franklin ITC Pro Light','helvetica neue', Helvetica, Verdana, Arial, sans-serif;
     display:block;
     font-style: normal;
     font-weight: bold;
     webkit-text-stroke: 1px transparent;
-    text-transform: uppercase;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     line-height: 1em;
-
-
+    color: $colour-h2;
 }
 
 h1 {
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     color: $colour-h1;
     font-size: 500%;
 }
 
 h2 {
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    color: $colour-h2;
+    // padding-top: 1.5em;
+    // padding-bottom: 0.5em;
+    font-size: 3em;
+}
 
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 a {

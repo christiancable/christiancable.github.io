@@ -7,4 +7,7 @@ permalink: /work/
 
 ## Work
 
-Here's something about work
+### Tools
+
+* Sublime Text
+* Portable Apps
