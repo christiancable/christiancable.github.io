@@ -6,8 +6,7 @@ $colour-nav-link:   #1142aa;
 $colour-outline:    #ffb173;
 $colour-h1:         #ff7100;
 $colour-h2:         #0acf00;
-
-
+$gutter:            2em;
 
 body {
     background-color: $colour-page-bg;
@@ -82,8 +81,8 @@ ul {
     border-bottom-style: solid;
     border-right-style: none;
     border-top-style: solid;
-    margin-right: 2em;
-    margin-left: 2em;
+    margin-right: $gutter;
+    margin-left: $gutter;
     border-color: $colour-outline;
 
     p {
@@ -119,6 +118,10 @@ ul#nav{
         float: left;
     }
 
+    &:first-child {
+        padding-left: 0;
+    }
+
     a {
         color: $colour-nav-link;  
     }
@@ -136,10 +139,11 @@ a {
 }
 
 #header {
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     margin-bottom: 1em; 
-    margin-right: 2em;
-    margin-left: 2em;
+    margin-right: $gutter;
+    margin-left: $gutter;
 
 
 }
@@ -150,8 +154,11 @@ a {
     padding: 0.5em;
     font-size: 60%;
     line-height:1.2em;
-    margin-right:6em;
+    // margin-right:6em;    
     padding-bottom: 1em;
+
+    margin-right: $gutter;
+    margin-left: $gutter;
 
 }
 
