@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: you-may-remember-me-from
+permalink: /you-may-remember-me-from/
 title: You may remember me from ...
 shorttitle: remember
 menu: false
