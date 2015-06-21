@@ -8,3 +8,8 @@ url: "http://lancaster.ac.uk/~cable"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#sass 
+sass:
+    sass_dir: css
+    style: compressed
