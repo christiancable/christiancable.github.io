@@ -20,7 +20,7 @@ You can find pictures of mine in the following places
 
 ## Internets
 
-When I was a kid my parents thought that I spent too much time on the computer, as an adult these trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
+When I was a kid my parents thought that I spent too much time on the computer, as an adult this trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
 
 * [Tumblr][tumblr]
 * [Twitter][twitter]
