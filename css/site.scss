@@ -7,7 +7,7 @@ $colour-outline:    #ffb173;
 $colour-h1:         #ff7100;
 $colour-h2:         #0acf00;
 $gutter:            2em;
-
+$text-ratio:        1.5;
 
 %centre {
     margin: 0 auto;
@@ -16,6 +16,18 @@ $gutter:            2em;
     padding-right: $gutter;
     padding-top: $gutter/4;
     padding-bottom: $gutter/4;
+}
+
+@mixin modular($scale) {
+    @if $scale > 0 {
+        font-size:$scale*$text-ratio * 1em; 
+    } @else {
+        font-size:$scale/$text-ratio * -1em; 
+    }
+
+    @if $scale == 0 {
+        font-size: 1em; 
+    }
 }
 
 /* 
@@ -27,6 +39,8 @@ $gutter:            2em;
   +#+           +#+               +#+  +#+        +#+         
  #+#           #+#              #+#    #+#       #+#          
 ###           ##########       ###    ###       ###           
+
+
 
 */
 
@@ -66,19 +80,11 @@ h1 {
     text-transform: uppercase;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     color: $colour-h1;
-    font-size: 500%;
+    @include modular(3);
 }
 
 h2 {
-    font-size: 3em;
-}
-
-h3 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1.5em;
+    @include modular(1);
 }
 
 a {
@@ -110,7 +116,7 @@ a {
 }
 
 #contact {
-    font-size: 0.60rem;
+    @include modular(-1);
     line-height: 1rem;
     float:right;
     display: block;
@@ -141,6 +147,14 @@ div {
 #content {
     @extend %centre;
 
+}
+
+#header {
+   @extend %centre;
+}
+
+#footer {
+    @extend %centre;
 }
 
 article {
@@ -174,6 +188,8 @@ article {
     list-style: none;
     list-style-type:none;
 
+    @include modular(0);
+
     li {
         letter-spacing: 0.1em;
         margin-left: 0px;
@@ -193,52 +209,12 @@ article {
 }
 
 
-#header {
-   @extend %centre;
-   margin-bottom: 1em; 
+
+
+@media only screen and (max-width: 500px) {
+
+    h1 {
+        @include modular(2);
+    }
+
 }
-
-#footer {
-    @extend %centre;
-}
-
-
-
-
-// @media only screen and (max-width: 500px) {
-
-//     #header {
-//         margin-right: 1em;
-//         margin-left: 1em;
-//     }
-
-//     #content {
-//         font-size: 130%;
-//         margin-right: 1em;
-//         margin-left: 1em;
-//         line-height: 1.5em;
-//     }
-
-//     h1 {
-//         font-size: 200%;
-//     }
-
-//     #footer {
-//         margin-right:0em;
-//         margin-left:0em;
-//     }
-
-//     #contact {
-//         text-align: center;
-//         float: none;
-//         font-size: 1.6em;
-//         margin-left:1em;
-//         margin-right:1em;
-//     }
-
-//     #contact  > span > span, #contact .url {
-//         display:none;
-//     }
-
-
-// }
