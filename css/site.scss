@@ -73,7 +73,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.5em;
     line-height: 1em;
     color: $colour-h2;
-    text-transform: lowercase;
+    // text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 h1 {
@@ -188,10 +189,11 @@ article {
     list-style: none;
     list-style-type:none;
 
+
     @include modular(0);
 
     li {
-        letter-spacing: 0.1em;
+        // letter-spacing: 0.1em;
         margin-left: 0px;
         margin-bottom: 0;
         margin-right: 0.7em;

@@ -2,12 +2,13 @@
 layout: page
 title: chop chop busy busy work work bang bang
 shorttitle: work
+menu: true
 permalink: /work/
 ---
 
 ## Role
 
-I work in the University Web Team helping to make the University's websites better. 
+I work in the [University Web Team](http://www.lancaster.ac.uk/current-staff/communications-and-marketing/web-team/) helping to make the University's websites better. 
 
 I've worked on the web since '97 and I'm interested in making useful, fun and effective websites. 
 
