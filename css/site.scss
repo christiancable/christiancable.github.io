@@ -8,6 +8,28 @@ $colour-h1:         #ff7100;
 $colour-h2:         #0acf00;
 $gutter:            2em;
 
+
+%centre {
+    margin: 0 auto;
+    max-width: 80em;
+    padding-left: $gutter;
+    padding-right: $gutter;
+    padding-top: $gutter/4;
+    padding-bottom: $gutter/4;
+}
+
+/* 
+
+  :::::::::::       ::::::::::       :::    :::   ::::::::::: 
+     :+:           :+:              :+:    :+:       :+:      
+    +:+           +:+               +:+  +:+        +:+       
+   +#+           +#++:++#           +#++:+         +#+        
+  +#+           +#+               +#+  +#+        +#+         
+ #+#           #+#              #+#    #+#       #+#          
+###           ##########       ###    ###       ###           
+
+*/
+
 body {
     background-color: $colour-page-bg;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -17,11 +39,14 @@ body {
 
 p {
     display: block;
-    /*  font-size:0.875em; */
     margin: 0 0 1em;
-    max-width: 65em; // set paras to something readible
+    max-width: 65em;
 }
 
+s {
+    opacity: 0.25;
+    font-style: italic;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Franklin ITC Pro Light','helvetica neue', Helvetica, Verdana, Arial, sans-serif;
@@ -29,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: bold;
     webkit-text-stroke: 1px transparent;
+    text-stroke: 1px transparent;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     line-height: 1em;
@@ -44,8 +70,6 @@ h1 {
 }
 
 h2 {
-    // padding-top: 1.5em;
-    // padding-bottom: 0.5em;
     font-size: 3em;
 }
 
@@ -65,10 +89,6 @@ em {
     font-style:italic;
 }
 
-div {
-    clear: both;
-    display: block;
-}
 
 ul {    
     list-style-position: inside;
@@ -77,39 +97,82 @@ ul {
     padding-left: 1em;
 }
 
-#content {
-    border-width: thin;
-    border-left-style: none;
-    border-bottom-style: solid;
-    border-right-style: none;
-    border-top-style: solid;
-    margin-right: $gutter;
-    margin-left: $gutter;
-    border-color: $colour-outline;
+cite {
+    font-style: italic;
+}
 
-    p {
-        max-width: 70em;
+a {
+    text-decoration: none;  
+
+    &:hover, &:focus {
+        text-decoration: underline;
     }
+}
+
+#contact {
+    font-size: 0.60rem;
+    line-height: 1rem;
+    float:right;
+    display: block;
+    span {
+        display: block;
+    }
+
+
+}
+
+/* 
+
+      :::            :::     :::   :::       ::::::::      :::    :::   ::::::::::: 
+     :+:          :+: :+:   :+:   :+:      :+:    :+:     :+:    :+:       :+:      
+    +:+         +:+   +:+   +:+ +:+       +:+    +:+     +:+    +:+       +:+       
+   +#+        +#++:++#++:   +#++:        +#+    +:+     +#+    +:+       +#+        
+  +#+        +#+     +#+    +#+         +#+    +#+     +#+    +#+       +#+         
+ #+#        #+#     #+#    #+#         #+#    #+#     #+#    #+#       #+#          
+########## ###     ###    ###          ########       ########        ###     
+
+*/
+
+div {
+    clear: both;
+    display: block;
+}
+
+#content {
+    @extend %centre;
+
+}
+
+article {
+
+        border-width: thin;
+        border-left-style: none;
+        border-bottom-style: solid;
+        border-right-style: none;
+        border-top-style: none;
+        border-color: $colour-outline;
+   
 }
 
 .pageTitle {
     border-color: $colour-outline;
     border-left-style: none;
     border-bottom-style: solid;
+    border-top-style: solid;
     border-right-style: none;
-    border-top-style: none;
     text-align: center;
     border-width: thin;
-}
 
-ul#nav{
-    list-style: none;
-    list-style-type:none;
+    h1 {
+        max-width: 80%;
+    }
 }
-
 
 
 #nav {
+
+    list-style: none;
+    list-style-type:none;
 
     li {
         letter-spacing: 0.1em;
@@ -130,89 +193,52 @@ ul#nav{
 }
 
 
-
-
-a {
-    text-decoration: none;  
-
-    &:hover, &:focus {
-        text-decoration: underline;
-    }
-}
-
 #header {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em; 
-    margin-right: $gutter;
-    margin-left: $gutter;
-
-
+   @extend %centre;
+   margin-bottom: 1em; 
 }
 
 #footer {
-    margin-top: 1em;
-    font-size:0.875em;
-    padding: 0.5em;
-    font-size: 60%;
-    line-height:1.2em;
-    // margin-right:6em;    
-    padding-bottom: 1em;
-
-    margin-right: $gutter;
-    margin-left: $gutter;
-
-}
-
-#contact {
-    float:right;
-    display: block;
-
-    span {
-        display: block;
-    }
+    @extend %centre;
 }
 
 
 
-cite {
-    font-style: italic;
-}
 
-@media only screen and (max-width: 500px) {
+// @media only screen and (max-width: 500px) {
 
-    #header {
-        margin-right: 1em;
-        margin-left: 1em;
-    }
+//     #header {
+//         margin-right: 1em;
+//         margin-left: 1em;
+//     }
 
-    #content {
-        font-size: 130%;
-        margin-right: 1em;
-        margin-left: 1em;
-        line-height: 1.5em;
-    }
+//     #content {
+//         font-size: 130%;
+//         margin-right: 1em;
+//         margin-left: 1em;
+//         line-height: 1.5em;
+//     }
 
-    h1 {
-        font-size: 200%;
-    }
+//     h1 {
+//         font-size: 200%;
+//     }
 
-    #footer {
-        margin-right:0em;
-        margin-left:0em;
-    }
+//     #footer {
+//         margin-right:0em;
+//         margin-left:0em;
+//     }
 
-    #contact {
-        text-align: center;
-        float: none;
-        font-size: 1.6em;
-        margin-left:1em;
-        margin-right:1em;
-    }
+//     #contact {
+//         text-align: center;
+//         float: none;
+//         font-size: 1.6em;
+//         margin-left:1em;
+//         margin-right:1em;
+//     }
 
-    #contact  > span > span, #contact .url {
-        display:none;
-    }
+//     #contact  > span > span, #contact .url {
+//         display:none;
+//     }
 
-    
-}
+
+// }

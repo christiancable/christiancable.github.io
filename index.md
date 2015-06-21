@@ -5,13 +5,13 @@ title: Christian Cable
 shorttitle: about
 menu: true
 ---
-## About me
+## About
 
 Hello, my name is Christian and I make websites.
 
-I work at [Lancaster University][lancaster-university] as part of the [University Web Team][marketing-team] within *Communications and Marketing*.
+I work at [Lancaster University][lancaster-university] as a <s>Web Assistant</s> er <s>Web Developer</s> _...ahem..._ _Web Marketing Officer_ in the [University Web Team][marketing-team] within <s>Marketing and External Linkages</s> _...ahem..._ *Communications and Marketing*.
 
-Previously I worked in the [Department of Mathematics and Statistics][maths] as a Systems Administrator and then as a Web Developer as part of the [Postgraduate Statistics Centre][psc] project. In the early 2000s I worked for [the Careers Service][careers] helping to bring careers guidance to the Internet. 
+Previously I worked in the [Department of Mathematics and Statistics][maths] as a _Systems Administrator_ and then as a _Web Developer_ as part of the [Postgraduate Statistics Centre][psc] project. In the early 2000s I worked for [the Careers Service][careers] helping to bring careers guidance to the Internet. 
 
 If you're really interested in that sort of stuff you can find out far too much information over on [Linked in][linked-in].
 

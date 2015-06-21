@@ -6,27 +6,23 @@ menu: true
 permalink: /play/
 ---
 
-## Making Pictures
+## Pictures
 
-I love taking photographs; selfishly keeping little moments of time forever. I'm a former President and Programme Secretary of the [Lancaster Photographic Society][lps].
+I love taking photographs; selfishly keeping little moments of time forever. I have served as Programme Secretary, Vice-President and President of the [Lancaster Photographic Society][lps].
 
-I made a [coffee table style book][book] documenting the production of organic and ethical food.
+I've written and shot a [coffee table style photographic book][book] documenting the production of organic and ethical food.
 
 You can find pictures of mine in the following places
-
 
 * [Flickr][flickr]
 * [Instagram][instagram]
 * My [Photography Blog][photoblog]
-* [Google+][google]
 
+## Internets
 
-## The Internets!
-
-When I was a kid my parents thought that I spent too much time on the computer, I'm pretty sure they were correct. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
+When I was a kid my parents thought that I spent too much time on the computer, as an adult these trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
 
 * [Tumblr][tumblr]
-* [Google+][google]
 * [Twitter][twitter]
 * [Facebook][facebook]
 * [Delicious][delicious]

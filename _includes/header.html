@@ -1,13 +1,10 @@
 <div id="header">
-
-<ul id="nav">
-        {% for page in site.pages %}
-        	{% if page.menu %}
-        
-          		<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.shorttitle }}</a></li>
-       
-          	{% endif %}
-        {% endfor %}
-</ul>
+    <ul id="nav">
+    {% for page in site.pages %}
+    {% if page.menu %}
+    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">[ {{ page.shorttitle }} ]</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
 </div>
 <!-- end nav -->
