@@ -2,8 +2,8 @@
 title: Christian Cable
 email: christian.cable@lancaster.ac.uk
 description: "Christian Cable - web developer at Lancaster University"
-baseurl: "/~cable"
-url: "http://lancaster.ac.uk/~cable"
+baseurl: "/"
+url: "http://christiancable.github.io/"
 
 # Build settings
 markdown: kramdown
