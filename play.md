@@ -31,11 +31,12 @@ and in the following physical objects
 
 When I was a kid my parents thought that I [spent too much time on the computer](http://www.worldofspectrum.org/), as an adult this trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
 
-* [Twitter][twitter]
-* [Facebook][facebook]
 * [Delicious][delicious]
-* [Last.fm][lastfm]
+* [Facebook][facebook]
+* [GitHub](https://github.com/christiancable/)
 * [Huffduffer][huffduffer]
+* [Last.fm][lastfm]
+* [Twitter][twitter]
 
 
 [lps]: http://www.lancasterphotographicsociety.org.uk
