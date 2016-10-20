@@ -15,7 +15,7 @@ Previously I worked in the [Department of Mathematics and Statistics][maths] as 
 
 If you're really interested in that sort of stuff you can find out far too much information over on [Linked in][linked-in].
 
-[Outside of work](play) I'm a keen amateur [photographer][flickr] and member of [Lancaster Photographic Society][lps].
+[Outside of work](play) I'm a keen amateur [photographer][flickr].
 
 
 [lancaster-university]: http://www.lancaster.ac.uk
@@ -24,5 +24,4 @@ If you're really interested in that sort of stuff you can find out far too much 
 [psc]: http://www.maths.lancs.ac.uk/psc
 [careers]: http://careers.lancs.ac.uk
 [flickr]: http://www.flickr.com/photos/nexus_icon
-[lps]: http://www.lancasterphotographicsociety.org.uk
 [linked-in]: http://uk.linkedin.com/in/christiancable/
