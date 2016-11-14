@@ -15,4 +15,4 @@ I've worked on the web since '97 and I'm interested in making useful, fun and ef
 If you can stand their _crazy urls_ then you can find more about my work history on [Linked in][linked-in].
 
 
-[linked-in]: http://uk.linkedin.com/in/christiancable/
+[linked-in]: https://www.linkedin.com/in/christiancable/
