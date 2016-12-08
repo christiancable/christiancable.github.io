@@ -35,9 +35,11 @@ When I was a kid my parents thought that I [spent too much time on the computer]
 * [GitHub](https://github.com/christiancable/)
 * [Huffduffer][huffduffer]
 * [Last.fm][lastfm]
+* [Letterboxd][letterboxd]
 * [Delicious][delicious]
 * [Facebook][facebook]
 
+[letterboxd]: http://letterboxd.com/christiancable/
 [lps]: http://www.lancasterphotographicsociety.org.uk
 [book]: http://www.blurb.com/books/1588810
 [flickr]: http://www.flickr.com/photos/nexus_icon
