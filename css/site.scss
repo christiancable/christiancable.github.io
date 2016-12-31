@@ -11,6 +11,7 @@ $colour-page-bg:    #fdfdfd;
 $colour-link:       #4573D5;
 $colour-h1:         #ff7100;
 $colour-h2:         #0acf00;
+$colour-current:    #B25912;
 $colour-navigation: $colour-h1;
 
 /* fonts */
@@ -161,11 +162,21 @@ s {
         list-style-type: none;
         padding-right: 1.2em;
 
-        a {
+        .page-link {
             text-decoration: none;
             color: white;
+
+            
             &:hover {
                 text-decoration: underline;
+            }
+        }
+
+        .page-link.current {
+            color: $colour-current;
+
+              &:hover {
+                text-decoration: none;
             }
         }
     }
