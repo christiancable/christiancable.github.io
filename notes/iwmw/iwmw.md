@@ -3,7 +3,7 @@ layout: page
 title: Institutional Web Management Workshop
 shorttitle: iwmw
 topnavigation: true
-permalink: /work/iwmw/
+permalink: /notes/iwmw/
 ---
 ## Summary 
 
@@ -67,6 +67,7 @@ Day Three
 - [What is Our Vision for the Institutional Web and Can We Implement the Vision?](#3-3)
 - [Conclusions presented by Brian Kelly](#3-4)
 
+---
 
 ## SiteManager Version 8 Preview <a name="1-1"></a>
 
@@ -117,6 +118,8 @@ The goal (perhaps not version 8 first release) is to enable assets to be transfe
 * Format is XML 
 * Can be downloaded directly from the web interface
 * entire package imports can be 'rolled back'
+
+---
 
 ## Rebooting The Web. What Is The Purpose Of This Conference And What Do We Do In The Future? <a name="1-2"></a>
 **Brian Kelly** [@briankelly](https://twitter.com/briankelly)
@@ -181,6 +184,7 @@ The goal (perhaps not version 8 first release) is to enable assets to be transfe
 * the danger of committees is that they tend towards the benign and therefore the boring and safe things
 * talk sense but hidden in comedy is a powerful tactic
 
+---
 
 ## Digital Adaptation: Time To Untie Your Hands <a name="1-4"></a>
 **Paul Boag** [@boagworld](https://twitter.com/boagworld)
@@ -223,6 +227,7 @@ What is the case for change? And what is the plan for implementation?
 	* show and educate people
 	* when transformation has occurred then disband the team - move on
 
+---
 
 ## Hyper-connectedEd: Hyper-connectEd: Filling the vacuum by switching from blow to suck <a name="1-5"></a>
 **Martin Hawksey** [@mhawksey](https://twitter.com/mhawksey)
@@ -252,6 +257,8 @@ Create digital profiles for students. Creating a low-tech social network.
 * [A domain of one's own](http://umw.domains/)
 * [BuddyPress](http://buddypress.org/) - for creating a social network layer in Wordpress
 * [BadgeOS](http://badgeos.org/) - a Wordpress plugin for [Mozilla Open-Badges](http://www.openbadges.org/) 
+
+---
 
 ## Google Cloud Platform
 **Sharif Salah** - University of Portsmouth 
@@ -316,6 +323,8 @@ Portsmouth use this to host and scale their web site and applications
 ### Resources
 * [The Google Help](Http://.cloud.google.com/developers)
 * [Google Cloud Starter Pack](http://g.co/cloudstarterpack)
+
+---
 
 ## Using The Startup Playbook To Reboot A Big University Website
 **Ross Ferguson** - [@rossferg](https://twitter.com/rossferg) - Head of Digital  - Bath University - rf396@bath.ac.uk
@@ -449,6 +458,8 @@ Open invitation. Come visit, see how we work, help out for a week!
 * [Spotify videos on how teams are managed](http://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 * [Bath Web Team - the blog](http://blogs.bath.ac.uk/digital)
 
+---
+
 ## What's with UX In HE
 **Neil Allison [@usabilityed](https://twitter.com/usabilityed)** - UX - Edinburgh 
 
@@ -462,6 +473,8 @@ Make the UX of the web site part of the overall student experience.  Then it can
 ### Links
 * path  - degree creation tool (module selection) at Edinburgh 
 * www.ed.ac.uk/website-programme
+
+---
 
 ## You are all so Weird!
 **Ranjit Sidhu [@rssidhu](https://twitter.com/rssidhu)**
@@ -492,6 +505,8 @@ Data should be used to create useful things, not be something by itself. Take th
 * use your weird position to your advantage
 * make exciting things
 
+---
+
 ## Data.ac.uk
 **Christopher Gutteridge [@cgutteridge](https://twitter.com/@cgutteridge)** & Andy Milsted
 University Of Southampton
@@ -516,6 +531,8 @@ A collection of all ac.uk RSS feeds linked to on the homepages.
 * [RSS](http://rss.data.ac.uk)
 * [opd.data.ac.uk](http://opd.data.ac.uk/)
 * [observatory.data.ac.uk](http://observatory.data.ac.uk/)
+
+---
 
 ## Scripting Google Analytics
 **Martin Hawksey** 
@@ -577,6 +594,8 @@ Using supermetrics to grab tweets and then search those for mentions of a given 
 * google+ communities 
 * [google Analytics query explorer](http://ga-dev-tools.appspot.com) - for generating the function call arguments in the ga query *Anaytics.Data.Ga.get*
 * [import.io](http://import.io) - scrape websites into structured data which can be absorbed in scripts
+
+---
 
 ## Rebooting MyEd - Making The Portal Relevant Again
 **Martin Morrey** - Web Integration Manager, University of Edinburgh
@@ -651,6 +670,8 @@ A single interface for students and staff to internal systems
 			* task based (like the mobile app)
 				* with the popular tasks from the survey and Anaytics 
 
+---
+
 ## Allocating Work: Providing Tools For Academics
 **Hiten Vaghmaria** - Head of Digital Development at the University of Westminster
 
@@ -671,6 +692,8 @@ A single interface for students and staff to internal systems
 		
  
 ## What Is Our Vision For The Institutional Web And Can We Implement The Vision?
+
+---
 
 ## Conclusions 
 **Brian Kelly** - Innovation Advocate at Cetis. Recent content at http://www.rebelmouse.com/briankelly/
