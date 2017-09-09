@@ -9,20 +9,20 @@ menu: true
 
 Hello, my name is Christian and I make websites.
 
-I work at [Lancaster University][lancaster-university] as a <s>Web Assistant</s> er <s>Web Developer</s> er <s>Web Marketing Officer</s> _...ahem..._ _Web Developer_ in the [University Web Team][web-team] within <s>Marketing and External Linkages</s> er <s>Communications and Marketing</s>_...ahem..._ *[Information Systems Services][iss]*.
+I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's [Web Development Team][web-team] within [Information Services][is]. I'm excited to be spending most of my time working on [Astro](https://github.com/unikent/astro) our new, open-source, web publishing platform. 
 
-Previously I worked in the [Department of Mathematics and Statistics][maths] as a _Systems Administrator_ and then as a _Web Developer_ as part of the [Postgraduate Statistics Centre][psc] project. In the early 2000s I worked for [the Careers Service][careers] helping to bring careers guidance to the Internet. 
+I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
 
-If you're really interested in that sort of stuff you can find out far too much information over on [Linked in][linked-in].
-
-[Outside of work](play) I'm a keen amateur [photographer][flickr].
+[Outside of work](play), I used to spent a lot of time [making photographs][flickr] but these days I'm mostly just found on the [instagram][instagram]. After spending my entire life in [_the North_](https://youtu.be/HwtSdJaPCSI) I feel a litte confused by [Canterbury](http://www.canterbury.co.uk/) and its lack of rain. 
 
 
+[kent-univeristy]: https://www.kent.ac.uk/
+[is]:https://www.kent.ac.uk/is/
+[web-team]:https://blogs.kent.ac.uk/webdev/
+[linked-in]: http://uk.linkedin.com/in/christiancable/
 [lancaster-university]: http://www.lancaster.ac.uk
-[web-team]: http://www.lancaster.ac.uk/current-staff/communications-and-marketing/web-team/
 [iss]: http://www.lancaster.ac.uk/iss/about-us/
 [maths]: http://www.maths.lancs.ac.uk
-[psc]: http://www.maths.lancs.ac.uk/psc
 [careers]: http://careers.lancs.ac.uk
 [flickr]: http://www.flickr.com/photos/nexus_icon
-[linked-in]: http://uk.linkedin.com/in/christiancable/
+[instagram]:https://instagram.com/christiancable/
