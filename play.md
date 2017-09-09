@@ -29,10 +29,10 @@ and in the following physical objects
 
 ## Internets
 
-When I was a kid my parents thought that I [spent too much time on the computer](http://www.worldofspectrum.org/), as an adult this trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
+[When I was a kid](https://www.flickr.com/search/?sort=date-taken-desc&safe_search=1&tags=blackpool&user_id=67287915%40N00&view_all=1) my parents thought that I [spent too much time on the computer](http://www.worldofspectrum.org/), as an adult this trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
 
 * [Twitter][twitter]
-* [GitHub](https://github.com/christiancable/)
+* GitHub - [work](https://github.com/cfc7-unikent) and [play](https://github.com/christiancable/)
 * [Huffduffer][huffduffer]
 * [Last.fm][lastfm]
 * [Letterboxd][letterboxd]
