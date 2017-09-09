@@ -13,7 +13,7 @@ I work at the [University of Kent][kent-univeristy] as a Web Developer in the Un
 
 I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
 
-[Outside of work](play), I used to spent a lot of time [making photographs][flickr] but these days I'm mostly just found on the [instagram][instagram]. 
+[Outside of work](play), I used to spend a lot of time [making photographs][flickr] but these days I'm mostly just found on the [instagram][instagram]. 
 
 After spending my entire life in [_the North_](https://youtu.be/HwtSdJaPCSI) I feel a litte confused by [Canterbury](http://www.canterbury.co.uk/) and its curious lack of rain. 
 
