@@ -1,5 +1,5 @@
 # lancaster.ac.uk/~cable
 
 
-My personal site at Lancaster University.
+My personal site.
 A quick and dirty port of my old static site using Jekyll and SASS.
