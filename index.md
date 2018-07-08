@@ -24,7 +24,7 @@ After spending my entire life in [_the North_](https://youtu.be/HwtSdJaPCSI) I f
 [linked-in]: http://uk.linkedin.com/in/christiancable/
 [lancaster-university]: http://www.lancaster.ac.uk
 [iss]: http://www.lancaster.ac.uk/iss/about-us/
-[maths]: http://www.maths.lancs.ac.uk
+[maths]: http://www.lancaster.ac.uk/maths/about-us/history/
 [careers]: http://careers.lancs.ac.uk
 [flickr]: http://www.flickr.com/photos/nexus_icon
 [instagram]:https://instagram.com/christiancable/
