@@ -36,23 +36,16 @@ and in the following physical objects
 * [Huffduffer][huffduffer]
 * [Last.fm][lastfm]
 * [Letterboxd][letterboxd]
-* [Delicious][delicious]
 * [Facebook][facebook]
 
 [letterboxd]: http://letterboxd.com/christiancable/
 [lps]: http://www.lancasterphotographicsociety.org.uk
 [book]: http://www.blurb.com/books/1588810
 [flickr]: http://www.flickr.com/photos/nexus_icon
-[photoblog]: http://www.christiancable.co.uk/
 [google]: http://www.google.com/profiles/christiancable
-[delicious]: http://delicious.com/nexus_icon
 [twitter]: http://www.twitter.com/christiancable
 [tumblr]: http://squareeggs.tumblr.com/
 [facebook]: http://www.facebook.com/christiancable
 [lastfm]: http://last.fm/user/nexus_icon
-[readable]: http://readable.tastefulwords.com/
-[instapaper]: http://www.instapaper.com/
-[omihk]: http://ourmaninhongkong.net/
-[achipinthesugar]: http://achipinthesugar.com/
 [huffduffer]:http://huffduffer.com/christiancable
 [instagram]:https://instagram.com/christiancable/
