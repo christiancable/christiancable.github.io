@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Institutional Web Management Workshop
-shorttitle: iwmw
+title: Institutional Web Management Workshop 2014
+shorttitle: iwmw2014
 topnavigation: true
-permalink: /notes/iwmw/
+permalink: /notes/iwmw/2014
 ---
 ## Summary 
 
@@ -499,7 +499,7 @@ Data should be used to create useful things, not be something by itself. Take th
 * Home pages are much less important. Seeing much less traffic. 
 * People are more focused on the course pages. 
 
-### Summery 
+### Summary 
 * Create useful things 
 * context is everything
 * use your weird position to your advantage
