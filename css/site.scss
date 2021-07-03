@@ -8,10 +8,10 @@
 
 /* colours */
 $colour-page-bg:    #fdfdfd;
-$colour-link:       #4573D5;
-$colour-h1:         #ff7100;
-$colour-h2:         #0acf00;
-$colour-current:    #B25912;
+$colour-link:       #4370d0;
+$colour-h1:         #f06700;
+$colour-h2:         #1da816;
+$colour-current:    #4E0202;
 $colour-navigation: $colour-h1;
 
 /* fonts */
@@ -33,6 +33,18 @@ $small-screen:      500px;
 
         @if $scale == 0 {
             font-size: 1em; 
+        }
+}
+
+@mixin modularLineHeight($scale) {
+    @if $scale > 0 {
+        line-height: $scale*$text-ratio * 1em; 
+        } @else {
+            line-height: $scale/$text-ratio * -1em; 
+        }
+
+        @if $scale == 0 {
+            line-height: 1em; 
         }
 }
 
@@ -98,10 +110,10 @@ cite {
 
 a {
     color: $colour-link;
-    text-decoration: none;  
+    text-decoration-line: none;
 
     &:hover, &:focus {
-        text-decoration: underline;
+        text-decoration-line: underline;
     }
 }
 
@@ -136,17 +148,11 @@ s {
 
 #header, #footer {
     font-family: $sans-serif;
+    @include modular(0.8);
     background-color: $colour-navigation;
     color: white;
     letter-spacing: 0.01em;
     
-    a {
-        text-decoration: underline;
-        color: white;
-        &:hover {
-            text-decoration: bold;
-        }
-    }
 
     nav ul {
         display:flex;
@@ -163,31 +169,36 @@ s {
         padding-right: 1.2em;
 
         .page-link {
-            text-decoration: none;
-            color: white;
+            color: $colour-current;
+            text-underline-offset: 0.3em;
+            text-decoration-thickness: 0.2em;
 
             
             &:hover {
-                text-decoration: underline;
+                text-decoration-line: underline;    
+                text-decoration-style: solid;
             }
         }
 
         .page-link.current {
-            color: $colour-current;
-
+            text-decoration-line: underline;    
               &:hover {
-                text-decoration: none;
+                text-decoration-style: solid;
             }
         }
     }
 
     #contact {
+        a {
+            color: $colour-current;
+        }
         padding-top: 1em;
         padding-bottom: 1em;
         display: flex;
         justify-content: flex-end;
-        @include modular(-1);
-        line-height: 1rem;
+        @include modular(0.5);
+        @include modularLineHeight(1);
+        // line-height: 1em;
         span {
             display: block;
         }
