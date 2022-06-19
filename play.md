@@ -14,7 +14,7 @@ I wrote and produced a [coffee table style photographic book][book] documenting 
 
 You can find some pictures of mine in the following places
 
-* [Flickr][flickr]
+* ~~Flickr~~ *sob*
 * [Instagram][instagram]
 * [Tumblr][tumblr]
 
@@ -41,7 +41,6 @@ and in the following physical objects
 [letterboxd]: http://letterboxd.com/christiancable/
 [lps]: http://www.lancasterphotographicsociety.org.uk
 [book]: http://www.blurb.com/books/1588810
-[flickr]: http://www.flickr.com/photos/nexus_icon
 [google]: http://www.google.com/profiles/christiancable
 [twitter]: http://www.twitter.com/christiancable
 [tumblr]: http://squareeggs.tumblr.com/
