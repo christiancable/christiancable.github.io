@@ -1,216 +1,244 @@
 ---
 ---
+
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* spectrum colours */
+$zx-black: #000000;
+$zx-blue: #0000d8;
+$zx-bright-blue: #0000ff;
+$zx-red: #d80000;
+$zx-bright-red: #ff0000;
+$zx-magenta: #d800d8;
+$zx-bright-magenta: #ff00ff;
+$zx-green: #00d800;
+$zx-bright-green: #00ff00;
+$zx-cyan: #00d8d8;
+$zx-bright-cyan: #00ffff;
+$zx-yellow: #d8d800;
+$zx-bright-yellow: #ffff00;
+$zx-white: #d8d8d8;
+$zx-bright-white: #ffffff;
+
 /* colours */
-$colour-page-bg:    #fdfdfd;
-$colour-link:       #4370d0;
-$colour-h1:         #f06700;
-$colour-h2:         #1da816;
-$colour-current:    #4E0202;
-$colour-navigation: $colour-h1;
+$colour-page-bg: $zx-bright-white;
+$colour-link: $zx-bright-magenta;
+$colour-h1: $zx-cyan;
+$colour-h2: $zx-green;
+$colour-h1-shadow: $zx-bright-cyan;
+$colour-h2-shadow: $zx-bright-green;
+$colour-nav: $zx-bright-yellow;
+$colour-nav-current: $zx-bright-green;
+$colour-navigation: $zx-magenta;
 
 /* fonts */
-$sans-serif: 'Franklin ITC Pro Light','helvetica neue', Helvetica, Verdana, Arial, sans-serif;
-$sans: Georgia, "Times New Roman", Times, serif;
+$sans-serif: "Franklin ITC Pro Light", "helvetica neue", Helvetica, Verdana,
+  Arial, sans-serif;
+$sans: "Gill Sans", Georgia, "Times New Roman", Times, serif;
 
 /* misc */
-$gutter:            2em;
-$text-ratio:        1.5;
-$small-screen:      500px;
+$gutter: 2em;
+$text-ratio: 1.5;
+$small-screen: 500px;
 
 /* mixins */
 @mixin modular($scale) {
-    @if $scale > 0 {
-        font-size:$scale*$text-ratio * 1em; 
-        } @else {
-            font-size:$scale/$text-ratio * -1em; 
-        }
+  @if $scale > 0 {
+    font-size: $scale * $text-ratio * 1em;
+  } @else {
+    font-size: $scale/$text-ratio * -1em;
+  }
 
-        @if $scale == 0 {
-            font-size: 1em; 
-        }
+  @if $scale == 0 {
+    font-size: 1em;
+  }
 }
 
 @mixin modularLineHeight($scale) {
-    @if $scale > 0 {
-        line-height: $scale*$text-ratio * 1em; 
-        } @else {
-            line-height: $scale/$text-ratio * -1em; 
-        }
+  @if $scale > 0 {
+    line-height: $scale * $text-ratio * 1em;
+  } @else {
+    line-height: $scale/$text-ratio * -1em;
+  }
 
-        @if $scale == 0 {
-            line-height: 1em; 
-        }
+  @if $scale == 0 {
+    line-height: 1em;
+  }
 }
 
 @mixin mobile {
-    @media only screen and (max-width : $small-screen) {
-        @content;
-    }
+  @media only screen and (max-width: $small-screen) {
+    @content;
+  }
 }
 
 /* type */
 body {
-    background-color: $colour-page-bg;
-    font-family: $sans;
-    line-height: 1.5em;
-    font-size: 16px;
+  background-color: $colour-page-bg;
+  font-family: $sans;
+  line-height: 1.5em;
+  font-size: 16px;
 }
 
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $sans-serif;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    line-height: 1em;
-    color: $colour-h2;
-    webkit-text-stroke: 1px transparent;
-    text-stroke: 1px transparent;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  color: $colour-h2;
 
-    @include mobile {
-        text-align: center;
-    }
+  @include mobile {
+    text-align: center;
+  }
 }
 
 h1 {
-    text-transform: uppercase;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    color: $colour-h1;
-    text-align: center;
-    @include modular(3);
-    @include mobile {
-        @include modular(1);
-    }
+  text-transform: uppercase;
+  text-shadow: 4px 4px 0px $colour-h1-shadow;
+  color: $colour-h1;
+  text-align: center;
+  @include modular(3);
+  @include mobile {
+    @include modular(1);
+  }
 }
 
 h2 {
-    @include modular(1);
+  @include modular(1);
+  text-shadow: 2px 2px 0px $colour-h2-shadow;
 }
 
 p {
-    margin: 0 0 1em;
-    max-width: 65em;
+  margin: 0 0 1em;
+  max-width: 65em;
 }
 
 em {
-    font-style:italic;
+  font-style: italic;
 }
 
 cite {
-    font-style: italic;
+  font-style: italic;
 }
 
 a {
-    color: $colour-link;
-    text-decoration-line: none;
+  color: $colour-link;
+  text-decoration-line: none;
 
-    &:hover, &:focus {
-        text-decoration-line: underline;
-    }
+  &:hover,
+  &:focus {
+    text-decoration-line: underline;
+  }
 }
 
-ul {    
-    list-style-position: outside;
-    list-style-type: disc;
-    padding-bottom: 1em;
-    padding-left: 1em;
+ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-bottom: 1em;
+  padding-left: 1em;
 }
 
 s {
-    opacity: 0.25;
-    font-style: italic;
+  opacity: 0.25;
+  font-style: italic;
 }
 
 /* layout blocks */
 
 .container {
-    max-width: 60rem;
-    margin: auto;
+  max-width: 60rem;
+  margin: auto;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+.container > * {
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+
+#header,
+#footer {
+  font-family: $sans;
+  @include modular(0.8);
+  background-color: $colour-navigation;
+  color: white;
+  letter-spacing: 0.01em;
+
+  nav ul {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100%;
-}
+    justify-content: flex-start;
+    padding: 1em;
 
-.container  > * {
-    padding-left: $gutter;
-    padding-right: $gutter;
-}
+    &:first-child {
+      padding-left: 0;
+    }
+  }
 
-#header, #footer {
-    font-family: $sans-serif;
-    @include modular(0.8);
-    background-color: $colour-navigation;
-    color: white;
-    letter-spacing: 0.01em;
-    
+  .nav-item {
+    list-style-type: none;
+    padding-right: 1.2em;
 
-    nav ul {
-        display:flex;
-        justify-content: flex-start;
-        padding: 1em;
+    .page-link {
+      color: $colour-nav;
+      text-underline-offset: 0.3em;
+      text-decoration-thickness: 0.2em;
 
-        &:first-child {
-            padding-left: 0;
-        }
+      &:hover {
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+      }
     }
 
-    .nav-item {
-        list-style-type: none;
-        padding-right: 1.2em;
+    .page-link.current {
+      color: $colour-nav-current;
+      // text-decoration-line: underline;
+      &:hover {
+        text-decoration-style: solid;
+      }
+    }
+  }
 
-        .page-link {
-            color: $colour-current;
-            text-underline-offset: 0.3em;
-            text-decoration-thickness: 0.2em;
-
-            
-            &:hover {
-                text-decoration-line: underline;    
-                text-decoration-style: solid;
-            }
-        }
-
-        .page-link.current {
-            text-decoration-line: underline;    
-              &:hover {
-                text-decoration-style: solid;
-            }
-        }
+  #contact {
+    a {
+      color: $colour-nav;
+    }
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    @include modular(0.5);
+    @include modularLineHeight(1);
+    // line-height: 1em;
+    span {
+      display: block;
     }
 
-    #contact {
-        a {
-            color: $colour-current;
-        }
-        padding-top: 1em;
-        padding-bottom: 1em;
-        display: flex;
-        justify-content: flex-end;
-        @include modular(0.5);
-        @include modularLineHeight(1);
-        // line-height: 1em;
-        span {
-            display: block;
-        }
-
-        @include mobile {
-            justify-content: center;
-            text-align: center;
-        }
+    @include mobile {
+      justify-content: center;
+      text-align: center;
     }
+  }
 }
 
 #content {
-    border-top: 1px solid $colour-navigation;
-    margin-bottom: auto;
+  border-top: 1px solid $colour-navigation;
+  margin-bottom: auto;
 }
