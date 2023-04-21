@@ -9,12 +9,15 @@ permalink: /play/
 
 [When I was a kid](https://www.flickr.com/search/?sort=date-taken-desc&safe_search=1&tags=blackpool&user_id=67287915%40N00&view_all=1) my parents thought that I [spent too much time on the computer](http://www.worldofspectrum.org/), as an adult this trend seems to have continued. Here's some of the places you can find me on the mighty internets. I can't promise these are useful or work related.
 
-* [Mastodon][mastodon]
-* GitHub - [work](https://github.com/cfc7-unikent) and [play](https://github.com/christiancable/)
-* [Huffduffer][huffduffer]
-* [Last.fm][lastfm]
-* [Letterboxd][letterboxd]
-* [Facebook][facebook]
+* 💬 [Mastodon][mastodon]
+* 🧑‍💻 GitHub
+    * [work](https://github.com/cfc7-unikent) and 
+    * [play](https://github.com/christiancable/)
+* 🎙️ [Huffduffer][huffduffer]
+* 🎶 [Last.fm][lastfm]
+* 🎬 [Letterboxd][letterboxd]
+* 🎸 [Setlist.fm][setlistfm] 
+* 😥 [Facebook][facebook]
 
 ## Pictures
 
@@ -47,4 +50,5 @@ and in the following physical objects
 [lastfm]: https://last.fm/user/nexus_icon
 [huffduffer]:https://huffduffer.com/christiancable
 [instagram]:https://instagram.com/christiancable/
+[setlistfm]:https://www.setlist.fm/user/christiancable
 
