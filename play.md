@@ -1,3 +1,4 @@
+---
 layout: page
 title: Things to Make and Do
 shorttitle: play
