@@ -1,4 +1,3 @@
-![cfc7 screenshot 2025-03-12 at 14 36 01](https://github.com/user-attachments/assets/36020123-1f4c-4fdf-82d7-a880f0a22124)---
 layout: page
 title: Things to Make and Do
 shorttitle: play
