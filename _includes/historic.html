@@ -1,0 +1,31 @@
+<style>
+  #archive-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffef96;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-bottom: 2px solid #f0c000;
+    z-index: 1000;
+  }
+
+  .archive-spacer {
+    margin-top: 80px; /* To prevent content hiding behind banner */
+  }
+
+  #archive-banner a {
+    color: inherit;
+    text-decoration: underline;
+  }
+</style>
+<div id="archive-banner">
+    ⚠️ This is an archived version of my website from the olden days. Expect terrible markup, missing images and broken links.
+    <br/>
+    <a href="{{ '/' | relative_url }}">Return to the current site</a>.
+</div>
+<div class="archive-spacer"></div>
