@@ -9,7 +9,7 @@ menu: true
 
 Hello, my name is Christian and I make websites.
 
-I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's [Web and Learning Development Team][web-team] within [Information Services][is].
+I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's [Web and Learning Development Team][web-team] within [Information Technology Services][is].
 
 I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
 
