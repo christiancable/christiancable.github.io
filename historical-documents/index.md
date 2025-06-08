@@ -8,7 +8,7 @@ menu: true
 
 A somewhat incomplete view of the past; full of terrible markup.
 
-Reconstructed with the help of the waybackmachine.
+Reconstructed with the help of the _WayBackMachine_.
 
 ## mid90s
 * ~~members.tripod.com/~Fraggle~~ - _lost_
