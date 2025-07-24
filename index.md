@@ -9,7 +9,7 @@ menu: true
 
 Hello, my name is Christian and I make websites.
 
-I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's ~~Web and Learning Development Team~~ ~~Web Development Team~~ [Web and Digital Workspaces Team][web-team] within ~~Informtion Services~~ [IT Services][is].
+I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's ~~Web and Learning Development Team~~ ~~Web Development Team~~ [Web and Digital Workspaces Team][web-team] within ~~Informtion Services~~ [IT Services][it].
 
 I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
 
@@ -19,7 +19,7 @@ After spending my entire life in [_the North_](https://youtu.be/20XLWEjN9eI) I f
 
 
 [kent-univeristy]: https://www.kent.ac.uk/
-[is]:https://www.kent.ac.uk/is/
+[it]:https://www.kent.ac.uk/it-services
 [web-team]:https://blogs.kent.ac.uk/webdev/
 [linked-in]: http://uk.linkedin.com/in/christiancable/
 [lancaster-university]: http://www.lancaster.ac.uk
