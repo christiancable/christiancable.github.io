@@ -7,7 +7,7 @@ menu: true
 ---
 ## About
 
-Hello, my name is Christian and I make websites.
+Hello, my name is Christian and I make things for the web.
 
 I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's ~~Web and Learning Development Team~~ ~~Web Development Team~~ [Web and Digital Workspaces Team][web-team] within ~~Information Services~~ [IT Services][it].
 
