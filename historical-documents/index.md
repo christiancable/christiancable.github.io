@@ -17,7 +17,7 @@ Reconstructed with the help of the _WayBackMachine_.
 * [jumper.mcc.ac.uk/~chrisc](1997/jumper_mcc_ac_uk_chrisc)
 
 ## 1998
-* jumper.org.uk/~fraggle - _yellow_
+* [jumper.org.uk/~fraggle](1998/jumper_org_uk_fraggle/) - _yellow_
 
 ## 2000
 * miraclemile.freeserve.co.uk
@@ -31,4 +31,4 @@ Reconstructed with the help of the _WayBackMachine_.
 * christiancable.co.uk
 
 ## 2010
-* ~~christiancable.co.uk~~ - _weird wordpress version - lost_
+* ~~christiancable.co.uk~~ - _weird wordpress version - lost media_
