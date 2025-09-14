@@ -46,7 +46,7 @@ and in the following physical objects
 [lps]: https://www.lancasterphotographicsociety.org.uk
 [book]: https://www.blurb.com/books/1588810
 [google]: https://www.google.com/profiles/christiancable
-[mastodon]: https://mastodonapp.uk/@christiancable
+[mastodon]: https://mastodon.social/@christiancable
 [tumblr]: https://squareeggs.tumblr.com/
 [facebook]: https://www.facebook.com/christiancable
 [lastfm]: https://last.fm/user/nexus_icon
