@@ -36,6 +36,7 @@ $colour-h2-shadow: $zx-bright-green;
 $colour-nav: $zx-bright-yellow;
 $colour-nav-current: $zx-bright-green;
 $colour-navigation: $zx-magenta;
+$colour-border: $zx-yellow;
 
 /* fonts */
 $sans-serif: "Franklin ITC Pro Light", "helvetica neue", Helvetica, Verdana,
@@ -94,7 +95,7 @@ html {
 
 del {
   opacity: 0.3;
-} 
+}
 
 h1,
 h2,
@@ -157,6 +158,18 @@ ul {
   list-style-type: disc;
   padding-bottom: 1em;
   padding-left: 1em;
+}
+
+ol {
+  list-style-position: outside;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.footnotes {
+  border-top: 1px solid $colour-border;
+  padding-top: 1em;
+  margin-top: 2em;
 }
 
 s {

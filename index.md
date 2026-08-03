@@ -9,15 +9,17 @@ menu: true
 
 Hello, my name is Christian and I make things for the web.
 
-I work at the [University of Kent][kent-univeristy] as a Web Developer in the University's ~~Web and Learning Development Team~~ ~~Web Development Team~~ [Web and Digital Workspaces Team][web-team] within ~~Information Services~~ [IT Services][it].
+I work at the ~~[University of Kent][kent-univeristy]~~ [London and South East University Group][lase] as a Web Developer in the group's ~~Web and Learning Development Team~~ ~~Web Development Team~~ [Web and Digital Workspaces Team][web-team] within ~~Information Services~~ [IT Services][it] at Kent.[^1] 
 
-I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
+Before that I spent most of my 20s and 30s in a [variety of roles][linked-in] at [Lancaster University][lancaster-university] jumping between [web development][iss], [elearning][careers] and [systems administration][maths]. 
 
 [Outside of work](play), I used to spend a lot of time [making photographs][flickr] but these days I'm mostly just found on the [instagram][instagram]. 
 
 After spending my entire life in [_the North_](https://youtu.be/20XLWEjN9eI) I feel constantly confused by [Canterbury](http://www.canterbury.co.uk/) and its curious lack of rain. 
 
+[^1]: It's been an _eventful_ couple of years.
 
+[lase]: https://www.lase.ac.uk/
 [kent-univeristy]: https://www.kent.ac.uk/
 [it]:https://www.kent.ac.uk/it-services
 [web-team]:https://blogs.kent.ac.uk/webdev/
