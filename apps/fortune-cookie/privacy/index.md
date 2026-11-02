@@ -1,5 +1,8 @@
 ---
-layout: page
+layout: app
+shorttitle: privacy
+appnav: fortune-cookie
+navorder: 2
 title: Fortune Cookie Privacy Policy
 permalink: /apps/fortune-cookie/privacy/
 ---

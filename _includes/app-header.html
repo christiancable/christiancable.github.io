@@ -1,0 +1,14 @@
+<div id="header">
+	<nav>
+        <ul>
+         {% comment %} The app's own menu: its pages (appnav: <app>), in navorder. {% endcomment %}
+         {% assign navpages = site.pages | where: "appnav", page.appnav | sort: "navorder" %}
+         {% for currentPage in navpages %}
+             <li class="nav-item">
+                 <a class="page-link{% if currentPage.url == page.url %} current{% endif %}" href="{{ currentPage.url | prepend: site.baseurl }}">{{ currentPage.shorttitle }}</a>
+             </li>
+         {% endfor %}
+     </ul>
+ </nav>
+</div>
+<!-- end nav -->

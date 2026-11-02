@@ -1,5 +1,8 @@
 ---
-layout: page
+layout: app
+shorttitle: fortune cookie
+appnav: fortune-cookie
+navorder: 1
 title: Fortune Cookie
 permalink: /apps/fortune-cookie/
 ---
