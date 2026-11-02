@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+{% include app-head.html %}
 <body>
 	<div class="container">
-		{% comment %} An app's pages (apps/<app>/): the page layout, with the app's own menu. {% endcomment %}
+		{% comment %} An app's pages (apps/<app>/): the page layout, with the app's own head, menu, and footer. {% endcomment %}
 		{% include app-header.html %}
 		<section id="content">
 			<h1>{{ page.title }}</h1>
@@ -11,7 +11,7 @@
 			{{ content }}
 			</article>
 		</section>
-		{% include footer.html %}
+		{% include app-footer.html %}
 	</div>
 </body>
 </html>

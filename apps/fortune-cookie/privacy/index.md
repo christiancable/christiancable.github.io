@@ -2,6 +2,8 @@
 layout: app
 shorttitle: privacy
 appnav: fortune-cookie
+app: Fortune Cookie
+description: "Fortune Cookie collects no data: the privacy policy."
 navorder: 2
 title: Fortune Cookie Privacy Policy
 permalink: /apps/fortune-cookie/privacy/

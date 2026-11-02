@@ -2,6 +2,8 @@
 layout: app
 shorttitle: fortune cookie
 appnav: fortune-cookie
+app: Fortune Cookie
+description: "Help and support for Fortune Cookie, a Mac app that brings back the classic fortune program."
 navorder: 1
 title: Fortune Cookie
 permalink: /apps/fortune-cookie/
