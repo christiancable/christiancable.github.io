@@ -1,11 +1,12 @@
 ---
 layout: app
-shorttitle: privacy
+shorttitle: Privacy
 appnav: fortune-cookie
 app: Fortune Cookie
+icon: /apps/fortune-cookie/images/icon.png
 description: "Fortune Cookie collects no data: the privacy policy."
 navorder: 2
-title: Fortune Cookie Privacy Policy
+title: Privacy Policy
 permalink: /apps/fortune-cookie/privacy/
 ---
 *Last updated 2 November 2026*

@@ -1,11 +1,12 @@
 ---
 layout: app
-shorttitle: fortune cookie
+shorttitle: Support
 appnav: fortune-cookie
 app: Fortune Cookie
+icon: /apps/fortune-cookie/images/icon.png
 description: "Help and support for Fortune Cookie, a Mac app that brings back the classic fortune program."
 navorder: 1
-title: Fortune Cookie
+title: Help and Support
 permalink: /apps/fortune-cookie/
 ---
 Fortune Cookie is a little Mac app that brings back `fortune`, the Unix program that greeted people at login with a quip, a quote, or a groan. Open it and a cookie opens itself to show your fortune and its lucky numbers.

@@ -1,0 +1,151 @@
+/*
+  An app's pages (_layouts/app.html), after Fortune Cookie's Business Card style:
+  a card of Bone card stock with a faint grain, lying on a desk, the type set in New York
+  and pressed into the card. In Dark Mode the page is plain and dark, as in the app.
+*/
+:root {
+  --desk: #D8D5CD;
+  --paper: #ECEAE2;            /* Bone (CardStock.swift) */
+  --ink: #2A2A30;              /* Palette.ink */
+  --ink-soft: #5E5D60;
+  --rule: rgba(42, 42, 48, 0.18);
+  --press: 0 1px 0 rgba(255, 255, 255, 0.85), 0 -0.5px 0 rgba(0, 0, 0, 0.18);
+  --card-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), 0 18px 40px rgba(0, 0, 0, 0.10);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.3 0 0 0 0 0.28 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  --serif: ui-serif, "New York", Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --desk: #1C1C1E;
+    --paper: #1C1C1E;
+    --ink: #E8E6E1;
+    --ink-soft: #A3A19C;
+    --rule: rgba(232, 230, 225, 0.18);
+    --press: none;
+    --card-shadow: none;
+    --grain: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--desk); }
+
+body.app-page {
+  margin: 0;
+  padding: 4rem 1.25rem;
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3.5rem 3.5rem 2.5rem;
+  background: var(--grain), var(--paper);
+  border-radius: 3px;
+  box-shadow: var(--card-shadow);
+  text-shadow: var(--press);
+}
+
+.card-head {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.app-icon {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 96px;
+  height: 96px;
+  text-shadow: none;
+}
+
+.app-name {
+  margin: 0 0 0.75rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.app-nav {
+  font-size: 0.9375rem;
+  font-style: italic;
+}
+.app-nav a {
+  margin: 0 0.6rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.app-nav a:hover { color: var(--ink); }
+.app-nav a.current {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+h1 {
+  margin: 0 0 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+h2 {
+  margin: 2.25rem 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 1.5rem 0 0.25rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p, ul { margin: 0 0 1rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.5rem; }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 0.2em;
+}
+a:hover { text-decoration-color: currentColor; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  overflow-wrap: anywhere;
+}
+
+.card-foot {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+@media (max-width: 36rem) {
+  body.app-page { padding: 1.25rem 0.75rem; }
+  .card { padding: 2.25rem 1.5rem 1.75rem; }
+  h1 { font-size: 1.625rem; }
+}
