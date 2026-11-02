@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include app-head.html %}
+<body class="app-page">
+	{% comment %}
+	  An app's pages (apps/<app>/): their own look (css/app.css), set as a business card on a desk,
+	  after the app's Business Card style. Their own menu and footer, with no links into the rest of the site.
+	{% endcomment %}
+	<main class="card">
+		<header class="card-head">
+			{% if page.icon %}<img class="app-icon" src="{{ page.icon | prepend: site.baseurl }}" alt="" width="96" height="96">{% endif %}
+			<p class="app-name">{{ page.app }}</p>
+			{% include app-header.html %}
+		</header>
+		<h1>{{ page.title }}</h1>
+		<article>
+		{{ content }}
+		</article>
+		{% include app-footer.html %}
+	</main>
+</body>
+</html>

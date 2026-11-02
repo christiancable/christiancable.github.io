@@ -1,0 +1,7 @@
+<nav class="app-nav">
+    {% comment %} The app's own menu: its pages (appnav: <app>), in navorder. {% endcomment %}
+    {% assign navpages = site.pages | where: "appnav", page.appnav | sort: "navorder" %}
+    {% for currentPage in navpages %}
+        <a{% if currentPage.url == page.url %} class="current" aria-current="page"{% endif %} href="{{ currentPage.url | prepend: site.baseurl }}">{{ currentPage.shorttitle }}</a>
+    {% endfor %}
+</nav>
